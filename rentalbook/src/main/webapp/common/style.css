@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+	font-family: "Gowun Dodum", sans-serif;
+}
+
+.no-deco-link{
+	color: #444;
+	text-decoration: none;
+}
+
+.fs-small {
+	font-size: 0.8rem;
+}
+.srch-bar{
+	padding: 12px;
+	border-radius: 12px;
+	font-size: 1.1rem;
+	width: 480px;
+}
+.login-input{
+	padding: 16px; 
+	border: 2px solid #ddd; 
+	width: 100%; 
+	box-sizing:border-box;
+	font-size : 1.25rew;
+	border-radius:20px;
+}
+ button:hover {
+    background-color: #ADD8E6; 
+    color: white;
+    border-color:#ADD8E6;
+}
+
+button {
+	border-radius:10px;
+	padding: 10px;
+	border-color: #ddd;
+}
+th, td {
+     padding: 6px;
+     border-bottom: 2px solid #ccc;   /*선 밑에만*/
+     text-align: center;
+     background-color: #eee;     
+     
+    }
+    
+.default-table {
+	border-collapse:collapse;
+	width: 100%;
+	margin-top:10px;
+	
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ddd;
+}
+
+.text-center {
+	text-align:center;
+}

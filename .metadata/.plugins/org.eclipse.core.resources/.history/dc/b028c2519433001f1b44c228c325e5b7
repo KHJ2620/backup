@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	
+	background-image : url('../background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.board-cates  a{
+	text-decoration: none;
+}

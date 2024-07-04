@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Orbit&display=swap')
+	;
+
+* {
+	box-sizing: border-box;
+	font-family: "Orbit", sans-serif;
+	font-weight: lighter;
+}
+
+body {
+	background-image: url('../background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.fixed-box {
+	width: 500px;
+	height: 860px;
+	left: 900px;
+	top: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 25px;
+	padding: 10px;
+	position: fixed;
+	overflow: auto;
+}
+
+.fixed-footer {
+	position: absolute;
+	bottom: 1%;
+}
+
+.content-box {
+	height: 100%;
+	overflow: auto;
+	padding: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+	display: none;
+}
+
+.status-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.status-bar__column {
+	width: 33%;
+}
+
+.status-bar__column:nth-child(2) {
+	display: flex;
+	justify-content: center;
+}
+
+.status-bar__column:last-child {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center
+}
+
+.board {
+	padding: 10px 20px;
+	background: none;
+}
+
+.board-cates  a {
+	text-decoration: none;
+	color: rgb(105, 111, 115);
+	padding-bottom: 4px;
+	display: inline-block;
+}
+
+.active {
+	border-bottom: 2px solid rgb(14, 14, 14);
+	color: rgb(2, 2, 2) !important;
+	font-weight: 700;
+}
+
+.button-a {
+	border: 2px solid lightgray;
+	background: white;
+	color: black;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+.button-b {
+	border: 2px solid lightgray;
+	background: #1B2B4A;
+	color: white;
+	padding: 5px 8px;
+	border-radius: 25px;
+}
+
+.button-c {
+	border: 2px solid lightgray;
+	background: #2E3450;
+	color: white;
+	padding: 5px 8px;
+	border-radius: 25px;
+}
+
+.button-d {
+	border: none;
+	background: none;
+	color: black;
+	padding: 5px 8px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex-item {
+	width: 48%; /* 2%는 여백을 위해 남겨둠 */
+	margin-bottom: 10px; /* 아래쪽 여백 */
+	box-sizing: border-box;
+}

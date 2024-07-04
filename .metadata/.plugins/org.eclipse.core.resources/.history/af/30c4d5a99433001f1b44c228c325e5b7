@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+	background-image : url('../background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.board-cates  a{
+	text-decoration: none;
+}
+
+.board {
+	max-width: 530px;
+	margin : 0px 0px 0px calc(-50px + 50vw);
+	padding : 40px;
+	
+}
